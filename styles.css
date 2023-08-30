@@ -70,7 +70,7 @@ nav{
 }
 footer{
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     font-family: 'Antonio', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -130,16 +130,32 @@ footer{
     color: transparent;
 } 
 #work1:hover{
-    background-image: url(/image/042622_Ruined_Gangplank_Splash.png);
+    background-image: url(/image/favo.jpg);
     background-position: center;
     background-repeat: none;
+    background-size: cover;
 }
 #work2:hover{
-    background-image: url(/image/cc-29-32x.png);
+    background-image: url(/image/spotpix.jpg);
     background-position: center;
     background-repeat: none;
+    background-size: cover;
 }
-
+#work3:hover{
+    background-image: url(/image/2023.1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+#work4:hover{
+    /*background-image: url(/image/2023.1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;*/
+    background-color: yellow;
+    border: none;
+    box-shadow: none;
+}
 #contato-titulo{
     font-family: 'Antonio', sans-serif;
     font-style: normal;
@@ -167,9 +183,21 @@ footer{
 text-align: left;
 margin:auto;
 }
+#contato-titulo{
+    color: crimson;
+}
 .decorated{
     text-decoration: underline;
 }
+#dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 2px;
+  }
 /* width */
 ::-webkit-scrollbar {
    display: none;
