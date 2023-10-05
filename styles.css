@@ -150,10 +150,10 @@ footer{
     background-size: cover;
 }
 #work4:hover{
-    /*background-image: url(/image/2023.1.jpg);
+    background-image: url(/image/quote.png);
     background-position: center;
     background-repeat: none;
-    background-size: cover;*/
+    background-size: cover;
     background-color: yellow;
     border: none;
     box-shadow: none;
