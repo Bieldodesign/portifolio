@@ -1,3 +1,5 @@
+@import url(./imagegalery.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -26,18 +28,15 @@ nav{
     top:43px;
     mix-blend-mode: difference;
 }
-
 .menu-selector:hover{
     color:blue;
 }
-
 .slide{
     width: 100vw;
     height: 100vw;
     position: relative;
   background-color: antiquewhite;
 }
-
 #abbout{
     background: antiquewhite;
     text-align: center;
@@ -121,7 +120,6 @@ footer{
     color: #000000;
     text-decoration: none;
 }
-
 #lista-trabalhos{
     text-align: center;
     margin-top: 10vw;
@@ -191,7 +189,6 @@ margin:auto;
 .decorated{
     text-decoration: underline;
 }
-
 /* width */
 ::-webkit-scrollbar {
    display: none;
