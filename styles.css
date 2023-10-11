@@ -208,6 +208,7 @@ section.hScroll {
   
   .linkContact{
     color: #232323;
+<<<<<<< HEAD
   }
   .linkContact:hover{
     color: #DC143C;
@@ -314,3 +315,23 @@ section.hScroll {
   }
 
   }
+=======
+}
+.links:hover{
+    color: crimson;
+}
+.contato{
+text-align: left;
+margin:auto;
+}
+#contato-titulo{
+    color: crimson;
+}
+.decorated{
+    text-decoration: underline;
+}
+/* width */
+::-webkit-scrollbar {
+   display: none;
+  }
+>>>>>>> a1e6b9a172a22df5fdb95abba40bbd7e2f4bc7d8
