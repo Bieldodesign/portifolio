@@ -1,17 +1,16 @@
 @import url(galeria.css);
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
-
 @font-face {
     font-family: 'Asgard Trial';
-    src: url('/fonts/ASGARDTRIAL-FITFATITALIC.TTF') format('ttf'); /* Substitua pelo caminho do seu arquivo de fonte */
+    src: url('./fonts/ASGARDTRIAL-FITFATITALIC.TTF') format('ttf'); /* Substitua pelo caminho do seu arquivo de fonte */
     font-weight: bolder;
     font-style: italic;
 }
 @font-face {
   font-family: 'Le Murmure';
-  src: url('/fonts/LeMurmure-Regular.woff2') format('woff2'), /* Specify the correct font format */
-       url('/fonts/LeMurmure-Regular.woff') format('woff'); /* Add more formats if needed */
+  src: url('./fonts/LeMurmure-Regular.woff2') format('woff2'), /* Specify the correct font format */
+       url('./fonts/LeMurmure-Regular.woff') format('woff'); /* Add more formats if needed */
   font-weight: normal; /* Adjust font weight if necessary */
   font-style: normal; /* Adjust font style if necessary */
 }
