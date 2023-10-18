@@ -270,7 +270,7 @@ section.hScroll {
     body{
       /* background-color: green; */
       overflow-y: visible;
-      overflow-x: visible;
+     /*overflow-x: visible;*/
     }
 
     #seta{
@@ -282,7 +282,7 @@ section.hScroll {
     }
 
     #abbout{
-      padding-left: 10%;
+      padding-left: 7%;
       padding-top: 0;
       font-size: small;
        display: flex;
