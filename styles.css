@@ -270,7 +270,7 @@ section.hScroll {
     body{
       /* background-color: green; */
       overflow-y: visible;
-     /*overflow-x: visible;*/
+      overflow-x: hiden;
     }
 
     #seta{
