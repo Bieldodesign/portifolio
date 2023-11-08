@@ -278,7 +278,8 @@ section.hScroll {
     }
     .fundo{
       /* display: none; */
-      overflow: hidden;
+      width: 100 vw;
+        height: 1250px;
     }
 
     #abbout{
