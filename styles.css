@@ -306,7 +306,11 @@ section.hScroll {
     }
     #worksGraphic{
       padding-left: 3px;
-      padding: 10%;
+      padding: 5%;
+    }
+      #worksWeb{
+      padding-left: 3px;
+      padding: 5%;
     }
     ul[title]::before {
       color:#FAEBD7;
