@@ -312,4 +312,10 @@ section.hScroll {
   #contact{
     left: 60px;
   }
+ #graficBackground{
+     display: none;
+  }
+      #webBackground{
+      display: none;
+      }
   }
