@@ -297,9 +297,11 @@ section.hScroll {
     }
     #webTexto{
       top: 50%;
+        color: blue;
     }
     #graphicTexto{
       font-size:12vw;
+        letter-spacing: normal;
       /* padding-left: 10%; */
     }
     #worksGraphic{
