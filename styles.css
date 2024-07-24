@@ -200,7 +200,7 @@ section.hScroll {
     font-size: 1.3em;
     font-weight: bold;
     position: absolute;
-    right: 6vw;
+    right: 3vw;
     top: 20vh;
     z-index: 10;
   }
