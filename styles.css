@@ -143,6 +143,9 @@ section.hScroll {
         width: 350px;
         min-width: 40%;
   }
+#txt-scroll{
+    font:12px;
+}
 
   #worksWeb{
     padding: 10%;
