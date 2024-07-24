@@ -191,8 +191,52 @@ section.hScroll {
     flex-wrap: nowrap;
     align-items: center;
     padding-top: 20%;
-
   }
+
+.hover-text {
+  font-family: 'Asgard Trial','Concert One', sans-serif;
+  position: absolute;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left:50%;
+  pointer-events: none;
+}
+
+.itemGaleria:hover::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.itemGaleria:hover .hover-text {
+  display: block;
+}
+
+.itemGaleria:hover img {
+  cursor: zoom-in;
+}
+
+.itemGaleria:hover {
+  cursor: zoom-in;
+}
+
+.itemGaleria {
+  position: relative;
+  display: inline-block;
+}
+
+/*-------- CONTACT -----------*/
 
   #contactSection{
     /* background-color: blue; */
