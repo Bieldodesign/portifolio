@@ -207,6 +207,7 @@ section.hScroll {
   left:50%;
   pointer-events: none;
   max-widht: 100px;
+    justify:center;
 }
 
 .itemGaleria:hover::before {
